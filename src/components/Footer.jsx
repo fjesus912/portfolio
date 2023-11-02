@@ -2,8 +2,8 @@ import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react"
 
 const Footer = () => {
   return (
-    <section className="bg-[#181823] py-10 px-20">
-      <div className="grid grid-cols-2 max-w-[1200px] mx-auto">
+    <section className="bg-[#181823] py-10 px-10 sm:px-20">
+      <div className="grid sm:grid-cols-2 max-w-[1200px] mx-auto gap-6">
         <div className="font-bold text-2xl flex flex-col gap-3">
           <h3>Jesús.G</h3>
           <div className="flex gap-2">
@@ -15,7 +15,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <nav className='flex flex-col gap-4 text-white/60 h-full sm:visible invisible'>
+        <nav className='flex flex-col gap-4 text-white/60 h-full'>
           <a className="hover:text-white transition-colors" href="#about">About</a>
           <a className="hover:text-white transition-colors" href="#skillset">Skillset</a>
           <a className="hover:text-white transition-colors" href="#projects">Projects</a>

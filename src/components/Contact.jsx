@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section className="h-auto flex items-center justify-center max-w-[900px] mx-auto px-6 mb-32 mt-32" id="contact">
-      <div className="grid gap-3 grid-cols-2">
+    <section className="h-auto flex items-center justify-center max-w-[900px] mx-auto px-10 sm:px-6 mb-32 mt-32" id="contact">
+      <div className="grid gap-3 sm:grid-cols-2">
         <div className="flex flex-col gap-6">
           <h2 className="font-bold text-5xl">Let’s talk business</h2>
           <p className="text-[#8491A0]">Now that you know a lot about me, let me know if you are interested to work with me.</p>
