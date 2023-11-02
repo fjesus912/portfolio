@@ -1,6 +1,6 @@
 const Skillset = () => {
   return (
-    <section className="h-screen px-16 flex items-center" id="skillset">
+    <section className="h-screen px-16 flex items-center max-w-[1200px] mx-auto" id="skillset">
       <div className="flex flex-col sm:grid sm:grid-cols-3 sm:gap-10">
         <div className="flex flex-col gap-3">
           <h2 className="font-bold text-5xl">Skillset</h2>
