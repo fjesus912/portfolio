@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react"
+import { IconBrandGithub, IconBrandLinkedin, IconBrandWhatsapp, IconMail } from "@tabler/icons-react"
 
 const Footer = () => {
   return (
@@ -7,6 +7,12 @@ const Footer = () => {
         <div className="font-bold text-2xl flex flex-col gap-3">
           <h3>Jesús.G</h3>
           <div className="flex gap-2">
+            <a className="bg-[#5221E6] hover:bg-white hover:text-[#5221E6] transition-colors rounded-full p-1" href="" target="_blank" rel="noreferrer">
+              <IconMail />
+            </a>
+            <a className="bg-[#5221E6] hover:bg-white hover:text-[#5221E6] transition-colors rounded-full p-1" href="" target="_blank" rel="noreferrer">
+              <IconBrandWhatsapp />
+            </a>
             <a className="bg-[#5221E6] hover:bg-white hover:text-[#5221E6] transition-colors rounded-full p-1" href="https://github.com/fjesus912" target="_blank" rel="noreferrer">
               <IconBrandGithub />
             </a>

@@ -18,9 +18,10 @@ const Skillset = () => {
           </div>
           <div className="grid gap-4">
             <img src="/puzzle-piece.svg" alt="" />
-            <h3 className="font-bold text-2xl">Frameworks</h3>
+            <h3 className="font-bold text-2xl">Technologies</h3>
             <ul className="text-[#8491A0]">
               <li>React</li>
+              <li>Node.js</li>
             </ul>
           </div>
         </div>
