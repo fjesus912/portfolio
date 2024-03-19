@@ -10,7 +10,7 @@ import Skillset from './components/Skillset'
 function App() {
 
   return (
-    <main className='bg-black text-white font-Sen'>
+    <main className='dark:bg-[#00001a] bg-[#FFFFFF] text-white font-Sen'>
     <Navbar />
     <PopUpMenu />
     <About />
