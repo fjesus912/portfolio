@@ -1,4 +1,4 @@
-import {IconSun} from "@tabler/icons-react"
+import {IconMoon, IconSun} from "@tabler/icons-react"
 import { useEffect, useState } from "react"
 
 
@@ -26,15 +26,30 @@ const Navbar = () => {
           Jesús.G
         </a>
 
-      <nav className='flex dark:text-white text-[#373A3C] h-full sm:visible invisible font-semibold transition-all'>
+      <nav className='sm:flex dark:text-white text-[#373A3C] h-full sm:visible hidden font-semibold transition-all'>
         <a className='hover:bg-indigo-500 hover:text-white py-4 px-3 flex items-center' href="#about">About</a>
         <a className='hover:bg-indigo-500 hover:text-white py-4 px-3 flex items-center' href="#skillset">Skillset</a>
         <a className='hover:bg-indigo-500 hover:text-white py-4 px-3 flex items-center' href="#projects">Projects</a>
         <a className='hover:bg-indigo-500 hover:text-white py-4 px-3 flex items-center' href="#contact">Contact</a>
-        <button className="px-3 hover:bg-indigo-500 hover:text-white" onClick={handleThemeSwitch}><IconSun/></button>
+        <button className="px-3 hover:bg-indigo-500 hover:text-white" onClick={handleThemeSwitch}>
+        <div>
+          {theme === 'dark'
+          ?  <IconSun/>
+          : <IconMoon/>
+          }
+        </div>
+          
+        </button>
       </nav>
       <nav className=' dark:text-white text-[#373A3C] h-full sm:hidden visible font-semibold transition-all'>
-        <button className="py-4 px-4 hover:bg-indigo-500 hover:text-white" onClick={handleThemeSwitch}><IconSun/></button>
+        <button className="py-4 px-4 hover:bg-indigo-500 hover:text-white" onClick={handleThemeSwitch}>
+          <div>
+            {theme === 'dark'
+            ?  <IconSun/>
+            : <IconMoon/>
+            }
+          </div>
+        </button>
       </nav>
       </div>
     </header>
