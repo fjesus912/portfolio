@@ -18,7 +18,7 @@ const About = () => {
   return (
     <section id='about' className='grid items-center max-w-[1200px] mx-auto'>
       {/* <img className='max-w-[400px] hidden sm:block left-full absolute visible sm:left-0 sm:relative sm:rounded-full z-10 mx-auto sm:pl-6' src="/Picture.jpeg" alt="" /> */}
-      <div className='font-bold text-5xl sm:text-5xl md:text-7xl flex items-center mt-40'>
+      <div className='font-bold text-5xl sm:text-5xl md:text-7xl flex items-center sm:mt-40 mt-20'>
         <h1 className="sm:ml-6 mr-6 ml-6 z-20">
           <p className='mb-6 dark:text-white text-[#373A3C]'>I&apos;m Jesús González, </p>
           <h2 className='text-indigo-500 inline-block'>
@@ -36,7 +36,7 @@ const About = () => {
       {/* <p className='p-10 dark:text-white text-[#373A3C] sm:text-xl'>
       Cuento con experiencia desarrollando proyectos Front-end con React y Back-end con Node.js. Estoy comprometido con el aprendizaje continuo y busco desafíos que me permitan crecer profesional y personalmente.
       </p> */}
-      <div className='px-10 flex sm:justify-end gap-8'>
+      <div className='px-10 flex justify-center sm:justify-end sm:gap-8 gap-4'>
         <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-3xl hover:scale-110 transition-all'>Download my CV </button>
         <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-3xl hover:scale-110 transition-all'> <IconLanguageHiragana className='inline-block'/> Español</button>
       </div>
