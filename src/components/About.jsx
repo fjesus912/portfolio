@@ -37,8 +37,8 @@ const About = () => {
       Cuento con experiencia desarrollando proyectos Front-end con React y Back-end con Node.js. Estoy comprometido con el aprendizaje continuo y busco desafíos que me permitan crecer profesional y personalmente.
       </p> */}
       <div className='px-10 flex justify-center sm:justify-end sm:gap-8 gap-4'>
-        <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-3xl hover:scale-110 transition-all'>Download my CV </button>
-        <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-6 py-3 rounded-3xl hover:scale-110 transition-all'> <IconLanguageHiragana className='inline-block'/> Español</button>
+        <a href="https://drive.google.com/uc?id=1Qr6eGvPIwk16ha8kZtJ45kZgr958DnSJ&export=download" rel="noreferrer" className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 max-[425px]:px-2 max-[425px]:py-2 px-6 py-3 rounded-3xl hover:scale-110 transition-all text-center items-center flex'>Download my CV </a>
+        <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 max-[425px]:px-2 max-[425px]:py-2 px-6 py-3 rounded-3xl hover:scale-110 transition-all text-center'> <IconLanguageHiragana className='inline-block'/> Español</button>
       </div>
     </section>
   )
