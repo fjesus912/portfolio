@@ -3,7 +3,12 @@ import { useEffect, useState } from "react"
 
 
 const Navbar = () => {
-  const [theme, setTheme] = useState('dark')
+  const storedDarkMode = localStorage.getItem("DARK_MODE");
+  const [theme, setTheme] = useState(storedDarkMode)
+  
+  useEffect(() => {
+    localStorage.setItem("DARK_MODE", theme);
+  }, [theme]);
 
   const handleThemeSwitch = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark')
@@ -22,7 +27,7 @@ const Navbar = () => {
       <div className="max-w-[1200px] mx-auto w-full flex justify-between items-center">
 
         <a className="font-bold text-2xl hover:text-indigo-500 transition-colors flex items-center gap-4 dark:text-white text-[#373A3C]" href="#">
-        <img className="w-11 rounded-full border-2 border-green-500" src="/Picture.jpeg" alt="" />
+        <img className="w-11 rounded-full border-2 border-indigo-500" src="/Picture.jpeg" alt="" />
           Jesús.G
         </a>
 
