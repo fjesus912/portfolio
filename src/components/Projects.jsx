@@ -58,10 +58,10 @@ const Projects = () => {
                 </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/pokedex" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://github.com/fjesus912/pokedex" target="_blank" rel="noreferrer">
                       {t("projects.btn-code")}
                     </a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-pokedex.netlify.app" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://fj-pokedex.netlify.app/" target="_blank" rel="noreferrer">
                       {t("projects.btn-use-it")}
                     </a>
                   </div>
@@ -112,10 +112,10 @@ const Projects = () => {
                 </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/gift-music" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://github.com/fjesus912/gift-music" target="_blank" rel="noreferrer">
                       {t("projects.btn-code")}
                     </a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-gift-music.netlify.app" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://fj-gift-music.netlify.app/#/login" target="_blank" rel="noreferrer">
                       {t("projects.btn-use-it")}
                     </a>
                   </div>
@@ -139,10 +139,10 @@ const Projects = () => {
                 </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/rick-and-morty" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://github.com/fjesus912/rick-and-morty" target="_blank" rel="noreferrer">
                       {t("projects.btn-code")}
                     </a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-rick-and-morty.netlify.app" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://fj-rick-and-morty.netlify.app/" target="_blank" rel="noreferrer">
                       {t("projects.btn-use-it")}
                     </a>
                   </div>
@@ -166,10 +166,10 @@ const Projects = () => {
                 </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/weather-app" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://github.com/fjesus912/weather-app" target="_blank" rel="noreferrer">
                       {t("projects.btn-code")}
                     </a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-weather-app.netlify.app" target="_blank" rel="noreferrer">
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://fj-weather-app.netlify.app/" target="_blank" rel="noreferrer">
                       {t("projects.btn-use-it")}
                     </a>
                   </div>

@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="h-auto flex items-center justify-center max-w-[900px] mx-auto px-10 sm:px-6 mb-10 mt-32" id="contact">
+    <section className="h-auto flex items-center justify-center max-w-[900px] mx-auto px-10 sm:px-6 mb-10 md:mb-20 mt-32" id="contact">
       <div className="grid gap-3 sm:grid-cols-2">
         <div className="flex flex-col gap-6">
           <h2 className="font-bold text-3xl md:text-5xl dark:text-white text-[#373A3C]">

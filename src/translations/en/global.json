@@ -19,7 +19,7 @@
   "projects": {
     "projects": "Projects",
     "description": "These are my Front-End and Back-end projects that I have done. Swipe to see more.",
-    "pokedex-description": "Application that consumes the PokeApi to display characteristics of all Pokémon and present them in a retro design.",
+    "pokedex-description": "Application that consumes the PokeApi to display characteristics of all Pokémon and present them in a retro design, in addition, the app has a list of types to filter and search by Pokémon name that shows the matches.",
     "users-app-description": "Backend project that connects with a Front-End that allows the creation of users. This app features authentication, sending emails to verify the created account and maintains the logged in user's session.",
     "gift-music-description": "Web application with authentication where users can create, edit or delete playlists that they can share with users who have or do not have an account in the application, all with the use of a custom API that connects to Spotify.",
     "rick-morty-description": "This application connects with the Rick and Morty API to bring different dimensions with their respective inhabitants. It also has a search engine by id and dimension name that shows the matches.",
