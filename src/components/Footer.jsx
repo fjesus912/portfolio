@@ -1,6 +1,10 @@
 import { IconBrandGithub, IconBrandLinkedin, IconBrandWhatsapp, IconMail } from "@tabler/icons-react"
+import { useTranslation } from "react-i18next"
 
 const Footer = () => {
+  const [t] = useTranslation("global")
+
+
   return (
     <section className="bg-[#181823] py-10 px-10 sm:px-20">
       <div className="grid sm:grid-cols-2 max-w-[1200px] mx-auto gap-6 mb-8">
@@ -22,9 +26,15 @@ const Footer = () => {
           </div>
         </div>
         <nav className='flex-col gap-4 text-white/60 h-full hidden sm:flex'>
-          <a className="hover:text-indigo-500 transition-colors" href="#about">About</a>
-          <a className="hover:text-indigo-500 transition-colors" href="#skillset">Skillset</a>
-          <a className="hover:text-indigo-500 transition-colors" href="#projects">Projects</a>
+          <a className="hover:text-indigo-500 transition-colors" href="#about">
+            {t("footer.about")}
+          </a>
+          <a className="hover:text-indigo-500 transition-colors" href="#skillset">
+            {t("footer.skillset")}
+          </a>
+          <a className="hover:text-indigo-500 transition-colors" href="#projects">
+            {t("footer.projects")}
+          </a>
         </nav>
       </div>
     </section>

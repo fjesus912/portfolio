@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "about": "Acerca de",
+    "skillset": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "name": "Soy Jesús González;",
+    "description": "Cuento con experiencia desarrollando proyectos Front-end con React y Back-end con Node.js. Estoy comprometido con el aprendizaje continuo y busco desafíos que me permitan crecer profesional y personalmente."
+  },
+  "skillset": {
+    "skillset": "Habilidades",
+    "description": "Con habilidades en más de 4 campos diferentes del desarrollo web, soy la persona perfecta para contratar cuando se trata de un proyecto completo. Sean cuales sean sus necesidades, puedo afrontar prácticamente cualquier desafío.",
+    "languages": "Lenguajes",
+    "technologies": "Tecnologías",
+    "version-control": "Control de versiones"
+  },
+  "projects": {
+    "projects": "Proyectos",
+    "description": "Estos son mis proyectos Front-End y Back-end que he realizado. Desliza para ver más.",
+    "pokedex-description": "Aplicación que consume la PokeApi para mostrar características de todos los Pokémon y presentarlas en un diseño retro.",
+    "users-app-description": "Proyecto Backend que conecta con un Front-End que permite la creación de usuarios. Esta aplicación cuenta con autenticación, envío de correos electrónicos para verificar la cuenta creada y mantiene la sesión del usuario logueado.",
+    "gift-music-description": "Aplicación web con autenticación donde los usuarios pueden crear, editar o eliminar playlists que pueden compartir con usuarios que tengan cuenta o no en la aplicación, todo con el uso de una API personalizada que conecta con Spotify.",
+    "rick-morty-description": "Esta aplicación se conecta con la API de Rick y Morty para traer distintas dimensiones con sus respectivos habitantes, además tiene un buscador por id y por nombre de la dimensión que muestra las coincidencias.",
+    "weather-app-description": "Aplicación web que se conecta con una API de clima, esto con el fin de mostrar distos datos sobre el clima dependiendo de tu ubicación, como temperatura, velocidad del viento, humedad, presión y imágenes dinámicas dependiendo del clima. Además cuenta con modo claro y obscuro y conversión de unidades para los datos mostrados.",
+    "btn-code": "Código",
+    "btn-use-it": "Úsala"
+  },
+  "contact": {
+    "contact": "Contáctame",
+    "description": "Ahora que sabes mucho sobre mí y mi trabajo, déjame saber si estás interesado en trabajar conmigo.",
+    "form-name": "Nombre",
+    "form-email": "Email",
+    "form-message": "Mensaje",
+    "btn-send": "Enviar"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "skillset": "Habilidades",
+    "projects": "Proyectos"
+  }
+}

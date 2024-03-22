@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "about": "About",
+    "skillset": "Skillset",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "name": "I'm Jesús González;",
+    "description": "I have experience developing Front-end projects with React and Back-end projects with Node.js. I am committed to continuous learning and I am looking for challenges that allow me to grow professionally and personally."
+  },
+  "skillset": {
+    "skillset": "Skillset",
+    "description": "With skills in over 4 different fields of web development, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.",
+    "languages": "Languages",
+    "technologies": "Technologies",
+    "version-control": "Version Control"
+  },
+  "projects": {
+    "projects": "Projects",
+    "description": "These are my Front-End and Back-end projects that I have done. Swipe to see more.",
+    "pokedex-description": "Application that consumes the PokeApi to display characteristics of all Pokémon and present them in a retro design.",
+    "users-app-description": "Backend project that connects with a Front-End that allows the creation of users. This app features authentication, sending emails to verify the created account and maintains the logged in user's session.",
+    "gift-music-description": "Web application with authentication where users can create, edit or delete playlists that they can share with users who have or do not have an account in the application, all with the use of a custom API that connects to Spotify.",
+    "rick-morty-description": "This application connects with the Rick and Morty API to bring different dimensions with their respective inhabitants. It also has a search engine by id and dimension name that shows the matches.",
+    "weather-app-description": "Web application that connects with a weather API, this in order to display various weather data depending on your location, such as temperature, wind speed, humidity, pressure and dynamic images depending on the weather. It also has light and dark mode and unit conversion for the displayed data.",
+    "btn-code": "Code",
+    "btn-use-it": "Use it"
+  },
+  "contact": {
+    "contact": "Let’s talk business",
+    "description": "Now that you know a lot about me and my work, let me know if you are interested to work with me.",
+    "form-name": "Name",
+    "form-email": "Email address",
+    "form-message": "Message",
+    "btn-send": "Send"
+  },
+  "footer": {
+    "about": "About",
+    "skillset": "Skillset",
+    "projects": "Projects"
+  }
+}

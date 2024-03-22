@@ -5,13 +5,21 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
 import '../App.css'
+import { useTranslation } from "react-i18next";
+
 
 const Projects = () => {
+  const [t] = useTranslation("global")
+
   return (
-    <section className="px-16 mt-12 sm:mt-24 max-w-[1200px] mx-auto" id="projects">
+    <section className="px-8 sm:px-16 mt-12 sm:mt-24 max-w-[1200px] mx-auto" id="projects">
       <div className="mb-5">
-        <h2 className="font-bold text-5xl dark:text-white text-[#373A3C] mb-3">Projects</h2>
-        <p className="dark:text-[#8491A0] text-[#373A3C]">These are my Front-End and Back-end projects that I have done. Swipe to see more.</p>
+        <h2 className="font-bold text-3xl md:text-5xl dark:text-white text-[#373A3C] mb-3">
+          {t("projects.projects")}
+        </h2>
+        <p className="dark:text-[#8491A0] text-[#373A3C]">
+          {t("projects.description")}
+        </p>
       </div>
       <div>
         <Swiper
@@ -45,11 +53,17 @@ const Projects = () => {
               </div>
               <div className="p-5">
                 <h4 className="font-bold text-xl dark:text-white text-[#373A3C]">Pokedex</h4>
-                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ipsum asperiores nihil odio nobis. Expedita sed facere exercitationem sunt itaque mollitia.</p>
+                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">
+                  {t("projects.pokedex-description")}
+                </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:github.com/fjesus912/pokedex" target="_blank" rel="noreferrer">Code</a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:fj-pokedex.netlify.app" target="_blank" rel="noreferrer">Use it</a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/pokedex" target="_blank" rel="noreferrer">
+                      {t("projects.btn-code")}
+                    </a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-pokedex.netlify.app" target="_blank" rel="noreferrer">
+                      {t("projects.btn-use-it")}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -66,11 +80,17 @@ const Projects = () => {
               </div>
               <div className="p-5">
                 <h4 className="font-bold text-xl dark:text-white text-[#373A3C]">Users App</h4>
-                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ipsum asperiores nihil odio nobis. Expedita sed facere exercitationem sunt itaque mollitia.</p>
+                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">
+                  {t("projects.users-app-description")}
+                </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https://github.com/fjesus912/e3-auth_and_mail_backend" target="_blank" rel="noreferrer">Code</a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https://fj-e4-users-app.netlify.app/#/login" target="_blank" rel="noreferrer">Use it</a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://github.com/fjesus912/e3-auth_and_mail_backend" target="_blank" rel="noreferrer">
+                      {t("projects.btn-code")}
+                    </a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https://fj-e4-users-app.netlify.app/#/login" target="_blank" rel="noreferrer">
+                      {t("projects.btn-use-it")}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -87,11 +107,17 @@ const Projects = () => {
               </div>
               <div className="p-5">
                 <h4 className="font-bold text-xl dark:text-white text-[#373A3C]">Gift Music</h4>
-                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ipsum asperiores nihil odio nobis. Expedita sed facere exercitationem sunt itaque mollitia.</p>
+                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">
+                  {t("projects.gift-music-description")}
+                </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae rounded-2xl transition-colors px-6 py-2" href="https:github.com/fjesus912/gift-music" target="_blank" rel="noreferrer">Code</a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:fj-gift-music.netlify.app" target="_blank" rel="noreferrer">Use it</a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/gift-music" target="_blank" rel="noreferrer">
+                      {t("projects.btn-code")}
+                    </a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-gift-music.netlify.app" target="_blank" rel="noreferrer">
+                      {t("projects.btn-use-it")}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -108,11 +134,17 @@ const Projects = () => {
               </div>
               <div className="p-5">
                 <h4 className="font-bold text-xl dark:text-white text-[#373A3C]">Rick and Morty</h4>
-                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ipsum asperiores nihil odio nobis. Expedita sed facere exercitationem sunt itaque mollitia.</p>
+                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">
+                  {t("projects.rick-morty-description")}
+                </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:github.com/fjesus912/rick-and-morty" target="_blank" rel="noreferrer">Code</a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:fj-rick-and-morty.netlify.app" target="_blank" rel="noreferrer">Use it</a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/rick-and-morty" target="_blank" rel="noreferrer">
+                      {t("projects.btn-code")}
+                    </a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-rick-and-morty.netlify.app" target="_blank" rel="noreferrer">
+                      {t("projects.btn-use-it")}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -129,11 +161,17 @@ const Projects = () => {
               </div>
               <div className="p-5">
                 <h4 className="font-bold text-xl dark:text-white text-[#373A3C]">Weather App</h4>
-                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto ipsum asperiores nihil odio nobis. Expedita sed facere exercitationem sunt itaque mollitia.</p>
+                <p className="dark:text-[#8491A0] text-black/70 overflow-auto h-[70px] mb-3 min-[768px]:text-sm min-[940px]:text-base">
+                  {t("projects.weather-app-description")}
+                </p>
                 <div className="flex justify-center items-center">
                   <div className="flex gap-3 justify-center">
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:github.com/fjesus912/weather-app" target="_blank" rel="noreferrer">Code</a>
-                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2" href="https:fj-weather-app.netlify.app" target="_blank" rel="noreferrer">Use it</a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:github.com/fjesus912/weather-app" target="_blank" rel="noreferrer">
+                      {t("projects.btn-code")}
+                    </a>
+                    <a className="bg-[#5221E6] hover:bg-[#5221e6ae] rounded-2xl transition-colors px-6 py-2 max-[768px]:text-base max-[768px]:px-6 max-[860px]:px-4 max-[860px]:text-sm" href="https:fj-weather-app.netlify.app" target="_blank" rel="noreferrer">
+                      {t("projects.btn-use-it")}
+                    </a>
                   </div>
                 </div>
               </div>
